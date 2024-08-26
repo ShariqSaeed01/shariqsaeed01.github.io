@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    --text_color: #111111;
+    --accent_color: #4169E1;
+    --bgcolor: #F3F6FF;
+}
+
+.container{
+    width: 100vw;
+}
+
+.cover_profile {
+    position: relative; /* Ensures that .pic is positioned relative to this container */
+    width: 100vw;
+    height: 200px; /* Adjust height based on cover and pic height */
+}
+
+.cover {
+    height: 150px;
+    width: 100%;
+    background: url("./assets/imgs/cover.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 55%;
+}
+
+.pic {
+    position: absolute; /* Position the profile picture absolutely */
+    bottom: 0px; /* Positions the image halfway out of the cover */
+    left: 10%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjusts for the width of the picture */
+    height: 150px;
+    width: 150px;
+    background: url("./assets/imgs/me.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%; /* Perfect circle */
+    border: solid 3px white;
+}
+
+.lower{
+    margin-top: 15px;
+    margin-left: 60px;
+    margin-right: 60px ;
+}
+
+.bio_contact_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.contact_btn{
+    cursor: pointer;
+    height: 40px;
+}
+
+.name_country{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 19px;
+    color: var(--text_color);
+    /* padding-left: 10px; */
+}
+
+.country{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.download{
+    height: 15px;
+    padding-left: 5px;
+}
+
+.download:hover{
+    cursor: pointer;
+}
+
+.tagline{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--text_color);
+}
+
+.about_softskills{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about{
+    height: 150px;
+    width: 800px;
+    background-color: var(--bgcolor);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.heading{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.aboutText{
+    width: 700px;
+    font-weight: 400;
+    font-family: poppins;
+    font-size: 15px;
+    color:var(--text_color);
+    text-align: justify;
+}
+
+.softskills{
+    background-color: var(--bgcolor);
+    height: 150px;
+    width: 430px;
+    border-radius: 10px;
+}
+
+.softskill{
+    height: 35.5px;
+    border-bottom: solid 1px #D1DDFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+.softskill:last-child{
+    border: none;
+}
