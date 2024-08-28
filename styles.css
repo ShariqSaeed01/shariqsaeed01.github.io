@@ -1,143 +1,87 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: poppins;
     --text_color: #111111;
     --accent_color: #4169E1;
     --bgcolor: #F3F6FF;
 }
 
 .container{
+
+}
+
+.main-container{
+
+}
+
+.cover{
+    position: relative;
+    height: 22vh;
+}
+
+.cover-pic-container{
+
+}
+
+.cover-pic{
+    height: 22vh;
     width: 100vw;
+    object-fit: cover;
 }
 
-.cover_profile {
-    position: relative; /* Ensures that .pic is positioned relative to this container */
-    width: 100vw;
-    height: 200px; /* Adjust height based on cover and pic height */
+.dp{
+    position: absolute;
 }
 
-.cover {
+.dp-img{
     height: 150px;
-    width: 100%;
-    background: url("./assets/imgs/cover.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: 55%;
+    border-radius: 50%;
+    border: solid 2px white;
+    transform: translateY(-80%);
+    margin-left: 50px;
 }
 
-.pic {
-    position: absolute; /* Position the profile picture absolutely */
-    bottom: 0px; /* Positions the image halfway out of the cover */
-    left: 10%; /* Center horizontally */
-    transform: translateX(-50%); /* Adjusts for the width of the picture */
-    height: 150px;
-    width: 150px;
-    background: url("./assets/imgs/me.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 50%; /* Perfect circle */
-    border: solid 3px white;
+.lower-body{
+    margin: 50px 50px;
 }
 
-.lower{
-    margin-top: 15px;
-    margin-left: 60px;
-    margin-right: 60px ;
-}
-
-.bio_contact_btn{
+.bio-container{
+    /* margin-top: 40px;
+    margin-left: 50px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
 }
 
-.contact_btn{
-    cursor: pointer;
-    height: 40px;
+.name-skills{
+
 }
 
-.name_country{
-    font-family: poppins;
-    font-weight: 600;
+.name-country{
     font-size: 19px;
-    color: var(--text_color);
-    /* padding-left: 10px; */
-}
-
-.country{
-    font-weight: 400;
-    font-size: 15px;
-}
-
-.download{
-    height: 15px;
-    padding-left: 5px;
-}
-
-.download:hover{
-    cursor: pointer;
-}
-
-.tagline{
-    font-family: poppins;
-    font-weight: 400;
-    font-size: 15px;
-    color: var(--text_color);
-}
-
-.about_softskills{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.about{
-    height: 150px;
-    width: 800px;
-    background-color: var(--bgcolor);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-}
-
-.heading{
-    font-family: poppins;
     font-weight: 600;
-    font-size: 15px;
 }
 
-.aboutText{
-    width: 700px;
+.skill-tagline{
+    font-size: 15px;
     font-weight: 400;
-    font-family: poppins;
-    font-size: 15px;
-    color:var(--text_color);
-    text-align: justify;
 }
 
-.softskills{
-    background-color: var(--bgcolor);
-    height: 150px;
-    width: 430px;
-    border-radius: 10px;
+.contact-me-btn{
+
 }
 
-.softskill{
-    height: 35.5px;
-    border-bottom: solid 1px #D1DDFF;
+.contact-btn{
+    height: 50px;
+    width: 50px;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    padding-left: 50px;
-    font-family: poppins;
-    font-size: 15px;
-    font-weight: 400px;
-}
-
-.softskill:last-child{
+    justify-content: center;
     border: none;
+    border-radius: 5px;
+    background-color: var(--accent_color);
+    color: white;
+    padding: 3px 12px;
 }

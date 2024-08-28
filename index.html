@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <title>Faizan Nadeem</title>
 </head>
+
 <body>
     <div class="container">
-        <div class="cover_profile">
-            <div class="cover"></div>
-            <div class="pic"></div>
-        </div>
-        <div class="lower">
-            <div class="bio_contact_btn">
-                <div class="bio">
-                    <h3 class="name_country">Faizan Nadeem  <span class="country">• PK</span> <img src="./assets/imgs/download.svg" class="download" alt=""></h3>
-                    <h3 class="tagline">Web Developer | UI Design, JavaScript, HTML</span></h3>
+        <div class="main-container">
+            <!-- Cover and profile pic section started -->
+            <div class="cover">
+                <div class="cover-pic-container">
+                    <img class="cover-pic" src="./assets/imgs/cover.webp" alt="">
                 </div>
-                <img src="./assets/imgs/contact.svg" class="contact_btn">
+                <img class="dp-img" src="./assets/imgs/me.jpg" alt="">
             </div>
-            <div class="about_softskills">
-                <div class="about">
-                    <div>
-                        <h3 class="heading">About</h3>
-                        <h3 class="aboutText">I'm Faizan Nadeem, a web developer with expertise in UI design, HTML, and JavaScript. I create visually appealing and interactive websites that deliver seamless user experiences. Explore my portfolio to see my work, and feel free to reach out if you're interested in collaborating!</h3>
+            <!-- Cover and profile pic section ended -->
+
+
+            <div class="lower-body">
+                <!-- Bio section with download and contact button started -->
+                <div class="bio-container">
+                    <div class="name-skills">
+                        <h3 class="name-country">Faizan Nadeem <span style="font-size: 15px; font-weight: 400;">•
+                                PK</span>
+                            <img style="cursor: pointer; padding-left: 10px; height: 15px;"
+                                src="./assets/imgs/download.svg" alt="">
+                        </h3>
+                        <h3 class="skill-tagline">Web Developer | UI Design, JavaScript, HTML</h3>
                     </div>
-                </div>
-                <div class="softskills">
-                    <div class="softskill heading">Soft Skills</div>
-                    <div class="softskill"><li>Communication</li></div>
-                    <div class="softskill"><li>Team work</li></div>
-                    <div class="softskill"><li>Problem Solving</li></div>
+                    <div class="contact-me-btn">
+                        <button class="contact-btn"><img style="height: 50px;" src="./assets/imgs/contact.svg"
+                                alt=""></button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>
