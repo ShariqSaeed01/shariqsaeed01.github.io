@@ -16,11 +16,15 @@
 }
 
 .cover{
-    position: relative;
+    position: static;
     height: 22vh;
+    background-image: url('/assets/imgs/cover.webp');
+    background-size: cover;
+    background-position-y: 50%;
 }
 
 .cover-pic-container{
+    /* background-image: url('/assets/imgs/cover.webp'); */
 
 }
 
@@ -38,12 +42,12 @@
     height: 150px;
     border-radius: 50%;
     border: solid 2px white;
-    transform: translateY(-80%);
+    transform: translateY(20%);
     margin-left: 50px;
 }
 
 .lower-body{
-    margin: 50px 50px;
+    padding: 50px 50px;
 }
 
 .bio-container{
@@ -84,4 +88,182 @@
     background-color: var(--accent_color);
     color: white;
     padding: 3px 12px;
+    cursor: pointer;
 }
+.about_and_soft_skills-con{
+    display: flex;
+    margin-top: 20px;
+}
+.about-con{
+    flex: 8;
+    padding: 30px;
+    margin-right: 20px;
+    background-color: var(--bgcolor);
+    border-radius: 10px;
+    text-align: justify;
+}
+.about-head{
+    font-size: 18px;
+    font-weight: 500;
+}
+.about-para{
+    font-size: 14px;
+}
+.soft-skills{
+    flex: 2;
+    background-color: var(--bgcolor);
+    border-radius: 10px;
+    padding: 30px;
+}
+.soft-skills-list{
+    border-bottom: rgba(209, 221, 255, 1) 1px solid;
+}
+.soft-skills-head{
+    font-size: 18px;
+    font-weight: 500;
+}
+.soft-skills-text{
+    font-size: 14px;
+}
+.soft-skills-text::before{
+    margin-right: 10px;
+    content: '•';
+    font-size: 18px;
+}
+.skills-con{
+    display: flex;
+    margin-top: 30px;
+}
+.skill-I{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 6;
+    background-color: var(--bgcolor);
+    margin-right: 20px;
+    padding: 20px;
+}
+.skill-I-imgs-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill-I-img-con{
+    margin-right: 10px;
+}
+.skill-I-img{
+    height: 40px;
+    width: 40px;
+}
+.skill-I-para{
+    text-align: center;
+    font-size: 14px;
+}
+.skill-II{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 4;
+    background-color: var(--bgcolor);
+    padding: 20px;
+}
+.skill-II-imgs-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill-II-img-con{
+    margin-right: 10px;
+}
+.skill-II-img{
+    height: 40px;
+    width: 40px;
+}
+.skill-II-para{
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/* Media Querry 800px Started */
+
+/* About and soft skills */
+@media(max-width: 800px){
+    .about-con{
+        flex: 7;
+    }
+    .soft-skills{
+        flex: 3;
+    }
+    .about-head{
+        font-size: 16px;
+    }
+    .about-para{
+        font-size: 14px;
+    }
+    .soft-skills-head{
+        font-size: 16px;
+    }
+    .soft-skills-text{
+        font-size: 14px;
+    }
+}
+
+/* Media Querry 800px Ended */
+
+/* Media Querry 500px Started */
+@media(max-width: 600px){
+    .dp-img{
+        height: 120px;
+    }
+    .about_and_soft_skills-con{
+        display: flex;
+        flex-direction: column;
+    }
+    .name-skills{
+        margin-bottom: 10px;
+    }
+    .about-con{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    } 
+    .bio-container{
+        flex-direction: column;
+        align-items: start;
+    }
+    .contact-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 180px;
+    }
+    .contact-btn::after{
+        content: 'Contact Me';
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 0 10px;
+    }
+    .name-country{
+        font-size: 14px;
+    }
+    .skill-tagline{
+        font-size: 12px;
+    }
+    .about-head{
+        font-size: 14px;
+    }
+    .about-para{
+        font-size: 12px;
+    }
+    .soft-skills-head{
+        font-size: 14px;
+    }
+    .soft-skills-text{
+        font-size: 12px;
+    }
+}
+/* Media Querry 500px Ended */
