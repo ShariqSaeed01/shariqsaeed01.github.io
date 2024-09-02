@@ -17,7 +17,7 @@
 
 .cover{
     position: static;
-    height: 22vh;
+    height: 200px;
     background-image: url('/assets/imgs/cover.webp');
     background-size: cover;
     background-position-y: 50%;
@@ -42,7 +42,7 @@
     height: 150px;
     border-radius: 50%;
     border: solid 2px white;
-    transform: translateY(20%);
+    transform: translateY(60%);
     margin-left: 50px;
 }
 
@@ -139,10 +139,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    flex: 6;
+    flex: 4.5;
     background-color: var(--bgcolor);
     margin-right: 20px;
-    padding: 20px;
+    padding: 90px 30px;
+    border-radius: 10px;
 }
 .skill-I-imgs-con{
     display: flex;
@@ -165,9 +166,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    flex: 4;
+    flex: 5.5;
     background-color: var(--bgcolor);
-    padding: 20px;
+    padding: 90px 30px;
+    border-radius: 10px;
 }
 .skill-II-imgs-con{
     display: flex;
@@ -185,12 +187,96 @@
     text-align: center;
     font-size: 14px;
 }
+.education_certifications{
+    display: flex;
+    margin-top: 20px;
+}
+.education{
+    flex: 5;
+    background-color: var(--bgcolor);
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.education-head-con{
+    margin-bottom: 20px;
+}
+.education-head{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.university-con{
+    display: flex;
+}
+.university_logo-con{
+    margin-right: 40px;
+}
+.university_logo{
+    height: 60px;
+    width: 60px;
+}
+.university-text-con{
+
+}
+.university-text{
+    font-size: 14px;
+    font-weight: 500;
+}
+.university_name{
+    font-size: 12px;
+}
+.university_name::before{
+    margin-right: 10px;
+    content: '•';
+    font-size: 18px;
+}
+.university_session{
+    font-size: 10px;
+}
+.university_session::before{
+    margin-right: 10px;
+    content: '•';
+    font-size: 18px;
+}
+.certifications{
+    flex: 5;
+    background-color: var(--bgcolor);
+    padding: 30px;
+    border-radius: 10px;
+}
+.certifications-head{
+    font-size: 18px;
+    font-weight: 500;
+}
+.certification_I-con{
+    display: flex;
+}
+.certification_I-img-con{
+    margin-right: 40px;
+}
+.certification_I-img{
+    height: 60px;
+    width: 60px;
+}
+.certification_I-head{
+    font-size: 14px;
+    font-weight: 500;
+}
+.certification_I-company{
+    margin-left: 11px;
+    font-size: 12px;
+}
+.certification_I-cardential_id{
+    margin-left: 11px;
+    font-size: 10px;
+}
 
 
 /* Media Querry 800px Started */
 
 /* About and soft skills */
-@media(max-width: 800px){
+@media(max-width: 820px){
     .about-con{
         flex: 7;
     }
@@ -209,6 +295,27 @@
     .soft-skills-text{
         font-size: 14px;
     }
+    .education{
+        flex: 5;
+    }
+    .university-text{
+        font-size: 12px;    
+    }
+    .university_name{
+        font-size: 10px;
+    }
+    .university_session{
+    font-size: 9px;
+    }
+    .certifications{
+        flex: 5;
+    }
+    .certification_I-head {
+        font-size: 12px;
+    }
+    .certification_I-company{
+        font-size: 10px;
+    }
 }
 
 /* Media Querry 800px Ended */
@@ -216,6 +323,7 @@
 /* Media Querry 500px Started */
 @media(max-width: 600px){
     .dp-img{
+        transform: translateY(100%);
         height: 120px;
     }
     .about_and_soft_skills-con{
@@ -264,6 +372,70 @@
     }
     .soft-skills-text{
         font-size: 12px;
+    }
+    .skills-con{
+        flex-direction: column;
+    }
+    .skill-I{
+        margin-right: 0px;
+        margin-bottom: 20px;
+        padding: 30px;
+    }
+    .skill-I-para{
+        font-size: 12px;
+    }
+    .skill-II{
+        padding: 30px;
+    }
+    .skill-II-para{
+        font-size: 12px;
+    }
+    .education_certifications{
+        flex-direction: column;
+    }
+    .education {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .education-head {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .university_logo{
+        height: 40px;
+        width: 40px;
+    }
+    .certifications-head {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .certification_I-img{
+        height: 40px;
+        width: 40px;
+    }
+    .university_logo-con {
+        margin-right: 20px;
+    }
+    .university-text{
+        font-size: 10px;    
+    }
+    .university_name{
+        font-size: 9px;
+    }
+    .university_session{
+    font-size: 8px;
+    }
+   .certification_I-head {
+        font-size: 10px;
+    }
+    .certification_I-company {
+        font-size: 9px;
+    }
+    .certification_I-cardential_id {
+        font-size: 8px;
+    }
+    .certification_I-img-con {
+        margin-right: 20px;
     }
 }
 /* Media Querry 500px Ended */
