@@ -1,41 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <!-- contact btn -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Faizan Nadeem</title>
 </head>
+
 <body>
     <div class="container">
-        <div class="cover_profile">
-            <div class="cover"></div>
-            <div class="pic"></div>
-        </div>
-        <div class="lower">
-            <div class="bio_contact_btn">
-                <div class="bio">
-                    <h3 class="name_country">Faizan Nadeem  <span class="country">• PK</span> <img src="./assets/imgs/download.svg" class="download" alt=""></h3>
-                    <h3 class="tagline">Web Developer | UI Design, JavaScript, HTML</span></h3>
+        <div class="main-container">
+            <!-- Cover and profile pic section started -->
+            <div class="cover">
+                <div class="cover-pic-container">
+                    <!-- <img class="cover-pic" src="./assets/imgs/cover.webp" alt=""> -->
                 </div>
-                <img src="./assets/imgs/contact.svg" class="contact_btn">
+                <img class="dp-img" src="./assets/imgs/me.jpg" alt="">
             </div>
-            <div class="about_softskills">
-                <div class="about">
-                    <div>
-                        <h3 class="heading">About</h3>
-                        <h3 class="aboutText">I'm Faizan Nadeem, a web developer with expertise in UI design, HTML, and JavaScript. I create visually appealing and interactive websites that deliver seamless user experiences. Explore my portfolio to see my work, and feel free to reach out if you're interested in collaborating!</h3>
+            <!-- Cover and profile pic section ended -->
+
+
+            <div class="lower-body">
+                <!-- Bio section with download and contact button started -->
+                <div class="bio-container">
+                    <div class="name-skills">
+                        <h3 class="name-country">Faizan Nadeem <span style="font-size: 15px; font-weight: 400;">•
+                                PK</span>
+                            <img style="cursor: pointer; padding-left: 10px; height: 15px;"
+                                src="./assets/imgs/download.svg" alt="">
+                        </h3>
+                        <h3 class="skill-tagline">Web Developer | UI Design, JavaScript, HTML</h3>
+                    </div>
+                    <div class="contact-me-btn">
+                        <button class="contact-btn"><img style="height: 25px;" src="./assets/imgs/contact.png"
+                                alt=""></button>
                     </div>
                 </div>
-                <div class="softskills">
-                    <div class="softskill heading">Soft Skills</div>
-                    <div class="softskill"><li>Communication</li></div>
-                    <div class="softskill"><li>Team work</li></div>
-                    <div class="softskill"><li>Problem Solving</li></div>
+                <!-- Bio section with download and contact button Ended -->
+
+                <!-- About and Soft skills Started -->
+                <div class="about_and_soft_skills-con">
+                    <div class="about-con">
+                        <span class="about-head">About</span><br />
+                        <span class="about-para">I’m Faizan Nadeem, a web developer with expertise in UI design, HTML,
+                            and JavaScript. I create visually appealing and interactive websites that deliver seamless
+                            user experiences. Explore my portfolio to see my work, and feel free to reach out if you’re
+                            interested in collaborating!</span>
+                    </div>
+                    <div class="soft-skills">
+                        <div class="soft-skills-list">
+                            <span class="soft-skills-head">Soft Skills</span>
+                        </div>
+                        <div class="soft-skills-list">
+                            <span class="soft-skills-text">Communication</span>
+                        </div>
+                        <div class="soft-skills-list">
+                            <span class="soft-skills-text">Teamwork</span>
+                        </div>
+                        <div class="soft-skills-list" style="border-bottom: none;">
+                            <span class="soft-skills-text">Problem-Solving</span>
+                        </div>
                 </div>
+                <!-- About and Soft skills Ended -->
             </div>
+            <!-- Skills Started -->
+            <div class="skills-con">
+                <div class="skill-I">
+                    <div class="skill-I-imgs-con">
+                        <div class="skill-I-img-con">
+                            <img class="skill-I-img" src="/assets/imgs/React.png" alt="">
+                        </div>
+                        <div class="skill-I-img-con">
+                            <img class="skill-I-img" src="/assets/imgs/Vue.png" alt="">
+                        </div>
+                        <div class="skill-I-img-con">
+                            <img class="skill-I-img" src="/assets/imgs/Angular.png" alt="">
+                        </div>
+                        <div class="skill-I-img-con">
+                            <img class="skill-I-img" src="/assets/imgs/Next.png" alt="">
+                        </div>
+                    </div>
+                    <div class="skill-I-para">
+                        <span>Experienced in Vue.js, React.js, Angular.js, and Next.js for dynamic, interactive web development</span>
+                    </div>
+                </div>
+                <div class="skill-II">
+                    <div class="skill-II-imgs-con">
+                        <div class="skill-II-img-con">
+                            <img class="skill-II-img" src="/assets/imgs/Node js.jpg" alt="">
+                        </div>
+                        <div class="skill-II-img-con">
+                            <img class="skill-II-img" src="/assets/imgs/Express.png" alt="">
+                        </div>
+                        <div class="skill-II-img-con">
+                            <img class="skill-II-img" src="/assets/imgs/Mongo.png" alt="">
+                        </div>
+                        <div class="skill-II-img-con">
+                            <img class="skill-II-img" src="/assets/imgs/Firebase.png" alt="">
+                        </div>
+                    </div>
+                    <div class="skill-II-para">
+                        <span>Proficient in Node.js, Express, MongoDB, and Firebase for backend and database development</span>
+                    </div>
+                </div>
+             </div>
+            <!-- Skills Ended -->
+            <!-- Education and Certifications Started -->
+             <div class="education_certifications">
+                <div class="education">
+                    <div class="education-head-con">
+                        <span class="education-head" style="margin-bottom: 20px;">Education</span>
+                    </div>
+                    <div class="university-con">
+                        <div class="university_logo-con">
+                            <img class="university_logo" src="/assets/imgs/University.png" alt="">
+                        </div>
+                        <div class="university-text-con" style="margin-bottom: 20px;">
+                            <span class="university-text">BS Information Technology</span><br>
+                                <span class="university_name">University of Chakwal</span><br>
+                                <span class="university_session">2021-Present</span>
+                        </div>
+                    </div>
+                    <div class="university-con">
+                        <div class="university_logo-con">
+                            <img class="university_logo" src="/assets/imgs/College.png" alt="">
+                        </div>
+                        <div class="university-text-con">
+                            <span class="university-text">Intermediate in Computer Science</span><br>
+                                <span class="university_name">Royal College Of Sciences</span><br>
+                                <span class="university_session">2019-2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="certifications">
+                    <div class="certifications-head" style="margin-bottom: 20px;">
+                        <span>Certifications</span>
+                    </div>
+                    <div class="certification_I-con" style="margin-bottom: 20px;">
+                        <div class="certification_I-img-con">
+                            <img class="certification_I-img" src="/assets/imgs/Certification_I.png" alt="">
+                        </div>
+                        <div class="certification_I-text-con">
+                            <span class="certification_I-head">Front-End Development</span><br>
+                            <span class="certification_I-company">Meta</span><br>
+                            <span class="certification_I-cardential_id">Credential ID: 7T29D5S3TKXX</span>
+                        </div>
+                    </div>
+                    <div class="certification_I-con">
+                        <div class="certification_I-img-con">
+                            <img class="certification_I-img" src="/assets/imgs/Certification_II.png" alt="">
+                        </div>
+                        <div class="certification_I-text-con">
+                            <span class="certification_I-head">Front-End Development</span><br>
+                            <span class="certification_I-company">Meta</span><br>
+                            <span class="certification_I-cardential_id">Credential ID: 7T29D5S3TKXX</span>
+                        </div>
+                    </div>
+
+                </div>
+             </div>
+            <!-- Education and Certifications Ended -->
         </div>
     </div>
 </body>
+
 </html>
