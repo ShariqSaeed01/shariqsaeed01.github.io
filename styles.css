@@ -416,9 +416,13 @@
 
 /* Media Querry 500px Started */
 @media(max-width: 600px){
-    .dp-img{
-        transform: translateY(100%);
+    .dp-img {
+        transform: translateY(70%);
         height: 120px;
+        margin-left: 25px;
+    }
+    .cover {
+        height: 160px;
     }
     .about_and_soft_skills-con{
         display: flex;
