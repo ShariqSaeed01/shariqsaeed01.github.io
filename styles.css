@@ -439,7 +439,7 @@
 /* Media Querry 600px Started */
 @media(max-width: 600px){
     .dp-img {
-        transform: translateY(70%);
+        transform: translateY(65%);
         height: 120px;
         margin-left: 25px;
     }
