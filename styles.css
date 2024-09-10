@@ -145,7 +145,7 @@
 }
 .soft-skills-list{
     border-bottom: rgba(209, 221, 255, 1) 1px solid;
-    padding: 0px 20px;
+    padding: 0px 30px;
 }
 .soft-skills-head{
     font-size: 18px;
@@ -353,10 +353,13 @@
 
 }
 
-/* Media Querry 800px Started */
+/* Media Querry 980px Started */
 
 /* About and soft skills */
 @media(max-width: 980px){
+    .lower-body{
+
+    }
     .about-con{
         flex: 7;
     }
@@ -431,9 +434,9 @@
     }
 }
 
-/* Media Querry 800px Ended */
+/* Media Querry 980px Ended */
 
-/* Media Querry 500px Started */
+/* Media Querry 600px Started */
 @media(max-width: 600px){
     .dp-img {
         transform: translateY(70%);
@@ -443,16 +446,20 @@
     .cover {
         height: 160px;
     }
+    .lower-body{
+        padding: 60px 10px;
+    }
     .about_and_soft_skills-con{
         display: flex;
         flex-direction: column;
+        margin-top: 10px;
     }
     .name-skills{
         margin-bottom: 10px;
     }
     .about-con{
         margin-right: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     } 
     .bio-container{
         flex-direction: column;
@@ -463,7 +470,7 @@
         justify-content: center;
         align-items: center;
         height: 40px;
-        width: 180px;
+        width: 94vw;
     }
     .contact-btn::after{
         content: 'Contact Me';
@@ -484,6 +491,16 @@
     .about-para{
         font-size: 12px;
     }
+    .soft-skills{
+    flex: 2;
+    background-color: var(--bgcolor);
+    border-radius: 10px;
+    padding: 3px 0px;
+}
+    .soft-skills-list{
+    border-bottom: rgba(209, 221, 255, 1) 1px solid;
+    padding: 3px 30px;
+}
     .soft-skills-head{
         font-size: 14px;
     }
@@ -492,10 +509,11 @@
     }
     .skills-con{
         flex-direction: column;
+        margin-top: 10px;
     }
     .skill-I{
         margin-right: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         padding: 30px;
     }
     .skill-I-para{
@@ -509,10 +527,11 @@
     }
     .education_certifications{
         flex-direction: column;
+        margin-top: 10px;
     }
     .education {
         margin-right: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .education-head {
         font-size: 14px;
@@ -554,6 +573,9 @@
     .certification_I-img-con {
         margin-right: 20px;
     }
+    .contact-con{
+        margin-top: 10px;
+    }
     .phone-con{
         margin-bottom: 5px;
     }
@@ -573,7 +595,7 @@
         font-weight: 500;
     }
 }
-/* Media Querry 500px Ended */
+/* Media Querry 600px Ended */
 
 /* Media Querry above 1366 Started */
 
