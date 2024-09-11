@@ -6,7 +6,14 @@
     --accent_color: #4169E1;
     --bgcolor: #F3F6FF;
 }
+.favicon{
+    border-radius: 50%;
+}
 /* Scroll Bar Started*/
+a{
+    text-decoration: none;
+    color: #111111;
+}
 ::-webkit-scrollbar{
     width: 10px;
     background-color: transparent;
