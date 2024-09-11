@@ -294,7 +294,6 @@
     font-weight: 500;
 }
 .University_I-name{
-    margin-left: 11px;
     font-size: 12px;
 }
 .University_I-name::before{
@@ -303,7 +302,6 @@
     font-size: 16px;
 }
 .University_I-session{
-    margin-left: 11px;
     font-size: 10px;
 }
 .University_I-session::before{
