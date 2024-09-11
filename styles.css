@@ -236,70 +236,80 @@
     font-weight: 500;
 }
 
-.university-con{
+.College-con{
     display: flex;
 }
-.university_logo-con{
+.College_logo-con{
     margin-right: 20px;
 }
-.university_logo{
+.College_logo{
     height: 60px;
     width: 60px;
 }
-.university-text-con{
+.College-text-con{
 
 }
-.university-text{
+.College-text{
     font-size: 14px;
     font-weight: 500;
 }
-.university_name{
+.College_name{
     font-size: 12px;
 }
-.university_name::before{
+.College_name::before{
     margin-right: 10px;
     content: '•';
     font-size: 16px;
 }
-.university_session{
+.College_session{
     font-size: 10px;
 }
-.university_session::before{
+.College_session::before{
     margin-right: 10px;
     content: '•';
     font-size: 16px;
 }
-.certifications{
+.University{
     flex: 4.5;
     background-color: var(--bgcolor);
     padding: 30px;
     border-radius: 10px;
 }
-.certifications-head{
+.University-head{
     font-size: 18px;
     font-weight: 500;
 }
-.certification_I-con{
+.University_I-con{
     display: flex;
 }
-.certification_I-img-con{
+.University_I-img-con{
     margin-right: 20px;
 }
-.certification_I-img{
+.University_I-img{
     height: 60px;
     width: 60px;
 }
-.certification_I-head{
+.University_I-head{
     font-size: 14px;
     font-weight: 500;
 }
-.certification_I-company{
+.University_I-name{
     margin-left: 11px;
     font-size: 12px;
 }
-.certification_I-cardential_id{
+.University_I-name::before{
+    margin-right: 10px;
+    content: '•';
+    font-size: 16px;
+}
+.University_I-session{
     margin-left: 11px;
     font-size: 10px;
+}
+.University_I-session::before{
+    margin-right: 10px;
+    content: '•';
+    font-size: 16px;
 }
 .contact-con{
     display: flex;
