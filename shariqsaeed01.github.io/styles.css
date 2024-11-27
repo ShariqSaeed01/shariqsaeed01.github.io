@@ -1,0 +1,728 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    --text_color: #111111;
+    --accent_color: #4169E1;
+    --bgcolor: #F3F6FF;
+}
+.favicon{
+    border-radius: 50%;
+}
+/* Scroll Bar Started*/
+a{
+    text-decoration: none;
+    color: #111111;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: transparent;
+    border-radius: 10px; 
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.13); ;
+}
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.33); 
+    border-radius: 6px; 
+    border: 3px solid transparent; 
+  }
+
+/* Scroll Bar Ended*/
+
+
+.container{
+
+}
+
+.main-container{
+
+}
+
+.cover{
+    position: static;
+    height: 195px;
+    background-image: url('/assets/imgs/cover.webp');
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+.cover-pic-container{
+    /* background-image: url('/assets/imgs/cover.webp'); */
+
+}
+
+.cover-pic{
+    height: 22vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.dp{
+    position: absolute;
+}
+
+.dp-img{
+    height: 150px;
+    border-radius: 50%;
+    border: solid 2px white;
+    transform: translateY(60%);
+    margin-left: 50px;
+}
+
+.lower-body{
+    padding: 60px 50px;
+}
+
+.bio-container{
+    /* margin-top: 40px;
+    margin-left: 50px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.name-skills{
+
+}
+
+.name-country{
+    font-size: 19px;
+    font-weight: 600;
+}
+.country{
+    font-size: 15px;
+    font-weight: 400;
+}
+.download{
+    cursor: pointer;
+    padding-left: 10px;
+    height: 15px;
+}
+
+.skill-tagline{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contact-me-btn{
+
+}
+
+.contact-btn{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--accent_color);
+    color: white;
+    padding: 3px 12px;
+    cursor: pointer;
+}
+.about_and_soft_skills-con{
+    display: flex;
+    margin-top: 20px;
+}
+.about-con{
+    flex: 8;
+    padding: 30px;
+    margin-right: 20px;
+    background-color: var(--bgcolor);
+    border-radius: 10px;
+    text-align: justify;
+}
+.about-head{
+    font-size: 18px;
+    font-weight: 500;
+}
+.about-para{
+    font-size: 14px;
+}
+.soft-skills{
+    flex: 2;
+    background-color: var(--bgcolor);
+    border-radius: 10px;
+    padding: 30px 0px;
+}
+.soft-skills-list{
+    border-bottom: rgba(209, 221, 255, 1) 1px solid;
+    padding: 0px 30px;
+}
+.soft-skills-head{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 10px;
+}
+.soft-skills-text{
+    font-size: 12px;
+}
+.soft-skills-text::before{
+    margin-right: 10px;
+    content: '•';
+    font-size: 18px;
+}
+.skills-con{
+    display: flex;
+    margin-top: 20px;
+}
+.skill-I{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    background-color: var(--bgcolor);
+    margin-right: 20px;
+    padding: 90px 30px;
+    border-radius: 10px;
+}
+.skill-I-imgs-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill-I-img-con{
+    margin-right: 10px;
+}
+.skill-I-img{
+    height: 40px;
+    width: 40px;
+}
+.skill-I-para{
+    text-align: center;
+    font-size: 14px;
+}
+.skill-II{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    background-color: var(--bgcolor);
+    padding: 90px 30px;
+    border-radius: 10px;
+}
+.skill-II-imgs-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill-II-img-con{
+    margin-right: 10px;
+}
+.skill-II-img{
+    height: 40px;
+    width: 40px;
+}
+.skill-II-para{
+    text-align: center;
+    font-size: 14px;
+}
+.education_certifications{
+    display: flex;
+    margin-top: 20px;
+}
+.education{
+    flex: 5.5;
+    background-color: var(--bgcolor);
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.education-head-con{
+    margin-bottom: 20px;
+}
+.education-head{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.College-con{
+    display: flex;
+}
+.College_logo-con{
+    margin-right: 20px;
+}
+.College_logo{
+    height: 60px;
+    width: 60px;
+}
+.College-text-con{
+
+}
+.College-text{
+    font-size: 14px;
+    font-weight: 500;
+}
+.College_name{
+    font-size: 12px;
+}
+.College_name::before{
+    margin-right: 10px;
+    content: '•';
+    font-size: 16px;
+}
+.College_session{
+    font-size: 10px;
+}
+.College_session::before{
+    margin-right: 10px;
+    content: '•';
+    font-size: 16px;
+}
+.University{
+    flex: 4.5;
+    background-color: var(--bgcolor);
+    padding: 30px;
+    border-radius: 10px;
+}
+.University-head{
+    font-size: 18px;
+    font-weight: 500;
+}
+.University_I-con{
+    display: flex;
+}
+.University_I-img-con{
+    margin-right: 20px;
+}
+.University_I-img{
+    height: 60px;
+    width: 60px;
+}
+.University_I-head{
+    font-size: 14px;
+    font-weight: 500;
+}
+.University_I-name{
+    font-size: 12px;
+}
+.University_I-name::before{
+    margin-right: 10px;
+    content: '•';
+    font-size: 16px;
+}
+.University_I-affiliation{
+    font-size: 11px;
+}
+.University_I-affiliation::before{
+    margin-right: 10px;
+    content: '•';
+    font-size: 16px;
+}
+.University_I-session{
+    font-size: 10px;
+}
+.University_I-session::before{
+    margin-right: 10px;
+    content: '•';
+    font-size: 16px;
+}
+.contact-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: var(--bgcolor);
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+.phone-con{
+    display: flex;
+    align-items: center;
+}
+.phone-img-con{
+    margin-right: 20px;
+}
+.phone-text-con{
+    font-size: 16px;
+    font-weight: 500;
+}
+.phone-text{
+
+}
+.Email-con{
+    display: flex;
+    align-items: center;
+}
+.Email-img-con{
+    margin-right: 20px;
+}
+.Email-text-con{
+    font-size: 16px;
+    font-weight: 500;
+}
+.Email-text{
+
+}
+.Linkedin-con{
+    display: flex;
+    align-items: center;
+}
+.Linkedin-img-con{
+    margin-right: 20px;
+}
+.Linkedin-text-con{
+    font-size: 16px;
+    font-weight: 500;
+}
+.Linkedin-text{
+
+}
+
+/* Media Querry 980px Started */
+
+/* About and soft skills */
+@media(max-width: 980px){
+    .lower-body{
+
+    }
+    .about-con{
+        flex: 7;
+    }
+    .soft-skills{
+        flex: 3;
+    }
+    .about-head{
+        font-size: 16px;
+    }
+    .about-para{
+        font-size: 14px;
+    }
+    .soft-skills-head{
+        font-size: 16px;
+    }
+    .soft-skills-text{
+        font-size: 14px;
+    }
+    .education_certifications {
+        flex-direction: column;
+    }
+    .education{
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+    .university-text{
+        font-size: 14px;    
+    }
+    .university_name{
+        font-size: 12px;
+    }
+    .university_session{
+    font-size: 10px;
+    }
+    .certifications{
+        flex: 5;
+    }
+    .certification_I-head {
+        font-size: 14px;
+    }
+    .certification_I-company{
+        font-size: 12px;
+    }
+    .certification_I-cardential_id {
+        font-size: 10px;
+    }
+    .lower-body {
+    padding: 50px 30px;
+    }
+    .contact-con{
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+    .phone-con{
+        margin-bottom: 7px;
+    }
+    .Email-con{
+        margin-bottom: 7px;
+    }
+    .phone-text-con{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .Email-text-con{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .Linkedin-text-con{
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+/* Media Querry 980px Ended */
+
+/* Media Querry 600px Started */
+@media(max-width: 600px){
+    .dp-img {
+        transform: translateY(65%);
+        height: 120px;
+        margin-left: 25px;
+    }
+    .cover {
+        height: 160px;
+    }
+    .lower-body{
+        padding: 60px 10px;
+    }
+    .about_and_soft_skills-con{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .name-skills{
+        margin-bottom: 10px;
+    }
+    .about-con{
+        margin-right: 0px;
+        margin-bottom: 10px;
+    } 
+    .bio-container{
+        flex-direction: column;
+        align-items: start;
+    }
+    .contact-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 94vw;
+    }
+    .contact-btn::after{
+        content: 'Contact Me';
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 0 10px;
+    }
+    .name-country{
+        font-size: 14px;
+    }
+    .skill-tagline{
+        font-size: 12px;
+    }
+    .about-head{
+        font-size: 14px;
+    }
+    .about-para{
+        font-size: 12px;
+    }
+    .soft-skills{
+    flex: 2;
+    background-color: var(--bgcolor);
+    border-radius: 10px;
+    padding: 3px 0px;
+}
+    .soft-skills-list{
+    border-bottom: rgba(209, 221, 255, 1) 1px solid;
+    padding: 3px 30px;
+}
+    .soft-skills-head{
+        font-size: 14px;
+    }
+    .soft-skills-text{
+        font-size: 12px;
+    }
+    .skills-con{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .skill-I{
+        margin-right: 0px;
+        margin-bottom: 10px;
+        padding: 30px;
+    }
+    .skill-I-para{
+        font-size: 12px;
+    }
+    .skill-II{
+        padding: 30px;
+    }
+    .skill-II-para{
+        font-size: 12px;
+    }
+    .education_certifications{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .education {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .education-head {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .university_logo{
+        height: 40px;
+        width: 40px;
+    }
+    .certifications-head {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .certification_I-img{
+        height: 40px;
+        width: 40px;
+    }
+    .university_logo-con {
+        margin-right: 20px;
+    }
+    .university-text{
+        font-size: 14px;    
+    }
+    .university_name{
+        font-size: 12px;
+    }
+    .university_session{
+    font-size: 10px;
+    }
+   .certification_I-head {
+        font-size: 14px;
+    }
+    .certification_I-company {
+        font-size: 12px;
+    }
+    .certification_I-cardential_id {
+        font-size: 10px;
+    }
+    .certification_I-img-con {
+        margin-right: 20px;
+    }
+    .contact-con{
+        margin-top: 10px;
+    }
+    .phone-con{
+        margin-bottom: 5px;
+    }
+    .Email-con{
+        margin-bottom: 5px;
+    }
+    .phone-text-con{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .Email-text-con{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .Linkedin-text-con{
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+/* Media Querry 600px Ended */
+
+/* Media Querry above 1366 Started */
+
+@media(min-width: 1366px){
+    .name-country {
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .country{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .download{
+        cursor: pointer;
+        padding-left: 10px;
+        height: 18px;
+    }
+    .skill-tagline {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .about-head {
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .about-para {
+        font-size: 18px;
+    }
+    .soft-skills-head {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .soft-skills-text {
+        font-size: 16px;
+    }
+    .skill-I-img {
+        height: 50px;
+        width: 50px;
+    }
+    .skill-II-img {
+        height: 50px;
+        width: 50px;
+    }
+    .skill-I-para {
+        text-align: center;
+        font-size: 18px;
+    }
+    .skill-II-para {
+        text-align: center;
+        font-size: 18px;
+    }
+    .education-head {
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .university-text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .university_name {
+        font-size: 14px;
+    }
+    .university_session {
+        font-size: 12px;
+    }
+    .university_logo {
+        height: 70px;
+        width: 70px;
+    }
+    .certifications-head {
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .certification_I-head {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .certification_I-company {
+        margin-left: 11px;
+        font-size: 14px;
+    }
+    .certification_I-cardential_id {
+        margin-left: 11px;
+        font-size: 12px;
+    }
+    .certification_I-img {
+        height: 70px;
+        width: 70px;
+    }
+    .phone-text-con{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .Email-text-con{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .Linkedin-text-con{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .contact-con{
+        padding: 30px 60px;
+    }
+}
+
+/* Media Querry above 1366 Ended */
