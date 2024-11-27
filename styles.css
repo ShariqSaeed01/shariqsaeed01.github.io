@@ -308,6 +308,14 @@ a{
     content: '•';
     font-size: 16px;
 }
+.University_I-affiliation{
+    font-size: 11px;
+}
+.University_I-affiliation::before{
+    margin-right: 10px;
+    content: '•';
+    font-size: 16px;
+}
 .University_I-session{
     font-size: 10px;
 }
